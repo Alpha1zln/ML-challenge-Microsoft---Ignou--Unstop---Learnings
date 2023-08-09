@@ -1,0 +1,14 @@
+Create New Columns
+The preceding graph shows the relationship we want to investigate for our store, but some customers might want harness-size lists in inches, not centimeters. How can we view these harness sizes in imperial units?
+
+To do this, we will need to create a new column called harness_size_imperial and put that on the X axis instead.
+
+Creating new columns uses very similar syntax to what we've seen before.
+
+
+# Convert harness sizes from metric to imperial units 
+# and save the result to a new column
+data_smaller_paws['harness_size_imperial'] = data_smaller_paws.harness_size / 2.54
+
+# Show a graph of harness size in imperial units
+plotly.express.scatter(data_smaller_paws, x="harness_size_imperial", y="boot_size")
