@@ -1,0 +1,10 @@
+# Notice how training the model set its parameters. We could interpret these directly, but it's simpler to see it as a graph:
+
+import graphing
+
+# Show a graph of the result
+# Don't worry about how this works for now
+graphing.scatter_2D(dataset,    label_x="harness_size", 
+                                label_y="boot_size",
+                                trendline=lambda x: fitted_model.params[1] * x + fitted_model.params[0]
+                                )
