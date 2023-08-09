@@ -1,0 +1,14 @@
+# models are computer code that processes information to make a prediction or a decision. 
+# Here, we'll train a model to guess a comfortable boot size for a dog, based on the size of the harness that fits them.
+
+# harness_size states the size of the harness we are interested in
+harness_size = { 'harness_size' : [52.5] }
+
+# Use the model to predict what size of boots the dog will fit
+approximate_boot_size = fitted_model.predict(harness_size)
+
+# Print the result
+print("Estimated approximate_boot_size:")
+print(approximate_boot_size[0])
+
+# If you'd like, change the value of 52.5 in harness_size to a new value and run the block above to see the model in action.
