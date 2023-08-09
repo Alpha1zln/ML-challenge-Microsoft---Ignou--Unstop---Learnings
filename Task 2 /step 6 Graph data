@@ -6,3 +6,10 @@ In these exercises, we usually make our graphs using code in a custom file we've
 Here, we'll practice making a graph without this custom code, however.
 
 Lets make a simple graph of harness size versus boot size for our avalanche dogs with smaller feet.
+
+# Load and prepare plotly to create our graphs
+import plotly.express
+import graphing # this is a custom file you can find in our code on github
+
+# Show a graph of harness size by boot size:
+plotly.express.scatter(data_smaller_paws, x="harness_size", y="boot_size")
