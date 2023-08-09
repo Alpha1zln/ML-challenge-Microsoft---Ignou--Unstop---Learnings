@@ -1,0 +1,17 @@
+# Load data with Pandas
+# There are large variety of libraries that help you work with data. In Python, one of the most common is Pandas. 
+# We used pandas briefly in the previous exercise. 
+# Pandas can open data saved as text files and store it in an organized table called a DataFrame.
+
+# Let's open some text data that's stored on disk. Our data is saved in a file called doggy-boot-harness.csv.
+
+import pandas
+!wget https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/graphing.py
+!wget https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/doggy-boot-harness.csv
+
+# Read the text file containing data using pandas
+dataset = pandas.read_csv('doggy-boot-harness.csv')
+
+# Print the data
+# Because there are a lot of data, use head() to only print the first few rows
+dataset.head()
