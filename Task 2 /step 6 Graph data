@@ -1,0 +1,8 @@
+Graph Data
+Graphing data is often the easiest way to understand it.
+
+In these exercises, we usually make our graphs using code in a custom file we've created, called graphing.py, which you can look at on our github page.
+
+Here, we'll practice making a graph without this custom code, however.
+
+Lets make a simple graph of harness size versus boot size for our avalanche dogs with smaller feet.
