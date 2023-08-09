@@ -1,0 +1,22 @@
+# Train our model
+# OLS models have two parameters (a slope and an offset), but these haven't been set in our model yet. We need to train (fit) our model to find these values so that the model can reliably estimate dogs' boot size based on their harness size.
+
+# The following code fits our model to data you've now seen:
+
+# Load some libraries to do the hard work for us
+import graphing 
+
+# Train (fit) the model so that it creates a line that 
+# fits our data. This method does the hard work for
+# us. We will look at how this method works in a later unit.
+fitted_model = model.fit()
+
+# Print information about our model now it has been fit
+print("The following model parameters have been found:\n" +
+        f"Line slope: {fitted_model.params[1]}\n"+
+        f"Line Intercept: {fitted_model.params[0]}")
+
+
+# The following model parameters have been found:
+# Line slope: 0.5859254167382711
+# Line Intercept: 5.719109812682577        
