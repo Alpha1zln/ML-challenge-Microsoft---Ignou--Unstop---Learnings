@@ -1,0 +1,83 @@
+--2023-08-09 20:00:30--  https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/graphing.py
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.108.133, 185.199.109.133, 185.199.110.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21511 (21K) [text/plain]
+Saving to: ‘graphing.py’
+
+graphing.py         100%[===================>]  21.01K  --.-KB/s    in 0s      
+
+2023-08-09 20:00:30 (78.3 MB/s) - ‘graphing.py’ saved [21511/21511]
+
+--2023-08-09 20:00:32--  https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/doggy-boot-harness.csv
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.111.133, 185.199.110.133, 185.199.109.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.111.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 838 [text/plain]
+Saving to: ‘doggy-boot-harness.csv’
+
+doggy-boot-harness. 100%[===================>]     838  --.-KB/s    in 0s      
+
+2023-08-09 20:00:32 (49.3 MB/s) - ‘doggy-boot-harness.csv’ saved [838/838]
+
+Requirement already satisfied: statsmodels in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (0.11.0)
+Requirement already satisfied: patsy>=0.5 in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from statsmodels) (0.5.2)
+Requirement already satisfied: pandas>=0.21 in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from statsmodels) (1.1.5)
+Requirement already satisfied: numpy>=1.14 in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from statsmodels) (1.21.6)
+Requirement already satisfied: scipy>=1.0 in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from statsmodels) (1.5.3)
+Requirement already satisfied: six in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from patsy>=0.5->statsmodels) (1.16.0)
+Requirement already satisfied: python-dateutil>=2.7.3 in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from pandas>=0.21->statsmodels) (2.8.2)
+Requirement already satisfied: pytz>=2017.2 in /anaconda/envs/azureml_py38/lib/python3.8/site-packages (from pandas>=0.21->statsmodels) (2022.1)
+
+
+	boot_size	harness_size
+0	39	58
+1	38	58
+2	37	52
+3	39	58
+4	38	57
+5	35	52
+6	37	55
+7	36	53
+8	35	49
+9	40	54
+10	40	59
+11	36	56
+12	38	53
+13	39	58
+14	42	57
+15	42	58
+16	36	56
+17	36	51
+18	35	50
+19	41	59
+20	42	59
+21	38	59
+22	37	55
+23	35	50
+24	40	55
+25	36	52
+26	35	53
+27	39	54
+28	41	61
+29	37	56
+30	35	55
+31	41	60
+32	39	57
+33	41	56
+34	42	61
+35	42	58
+36	36	53
+37	37	57
+38	37	57
+39	39	55
+40	42	60
+41	35	51
+42	36	52
+43	41	56
+44	41	55
+45	41	57
+46	39	58
+47	39	57
+48	35	51
+49	39	59
