@@ -1,0 +1,19 @@
+Filter data by Columns
+Data is easy to filter by columns. We can either type this directly, like dataset.my_column_name, or like so: dataset["my_column_name"].
+
+We can use this to either extract data, or to delete data.
+
+Lets take a look at the harness sizes, and delete the sex and age_years columns.
+
+
+# Look at the harness sizes
+print("Harness sizes")
+print(dataset.harness_size)
+
+# Remove the sex and age-in-years columns.
+del dataset["sex"]
+del dataset["age_years"]
+
+# Print the column names
+print("\nAvailable columns after deleting sex and age information:")
+print(dataset.columns.values)
