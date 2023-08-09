@@ -1,0 +1,14 @@
+Filter data by Rows
+We can get data from the top of the table by using the head() function, or from the bottom of the table by using the tail() function.
+
+Both functions make a shallow copy of a section of our dataframe. 
+Here, we're sending these copies to the print() function. The head and tail views can also be used for other purposes, such as for use in analyses or graphs.
+
+
+# Print the data at the top of the table
+print("TOP OF TABLE")
+print(dataset.head())
+
+# print the data at the bottom of the table
+print("\nBOTTOM OF TABLE")
+print(dataset.tail())
